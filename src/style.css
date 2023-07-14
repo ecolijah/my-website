@@ -1,0 +1,98 @@
+:root {
+  --bg-color: #202124;
+  --text-color: #b1bbb3;
+  --text-color-light: #9aa0a6;
+  --link-color: #7ef062;
+  --link-color-hover: #fff;
+  --name-color: #d29fec;
+
+  --small-font: 16px;
+  --normal-font: 20px;
+  --large-font: 64px;  
+  
+  --gradient-1: #231523;
+  --gradient-2: #000000;
+}
+
+.main-content {
+  padding: 32px 64px;
+  /* background-color: aquamarine; */
+}
+
+.flex {
+  display:-webkit-box;
+  display:flex;
+  /* background-color: antiquewhite; */
+}
+
+.introduction {
+  -webkit-box-flex:620px;
+  flex:620px 0 0;
+  background-color:rgb(56, 59, 59);
+  /* width: 50%; */
+}
+
+.details {
+  -webkit-box-flex:620px;
+  flex:620px 0 0;
+  background-color:rgb(34, 40, 35);
+}
+
+span {
+  color: var(--name-color);
+}
+
+main {
+  display: block;
+}
+
+body, html {
+  font-family: "Literata", serif;
+
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.65;
+  -webkit-text-size-adjust:100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: var(--bg-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: -webkit-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
+  background: -moz-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
+  background: -ms-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
+  background: -o-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
+  background: linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
+}
+
+a {
+  color:var(--link-color);
+  text-decoration:none;
+  -webkit-transition:.2s ease-out;
+  transition:.2s ease-out
+}
+
+a:hover {
+  color:var(--link-color-hover);
+}
+
+p {
+  margin:0 0 1rem;
+  font-size: var(--normal-font);
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  /* display: flex; */
+  color: var(--text-color);
+  font-size: var(--large-font);
+  margin: .67em 0;
+}
