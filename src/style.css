@@ -28,14 +28,15 @@
 .introduction {
   -webkit-box-flex:620px;
   flex:620px 0 0;
-  background-color:rgb(56, 59, 59);
+  /* background-color:rgb(56, 59, 59); */
   /* width: 50%; */
 }
 
 .details {
-  -webkit-box-flex:620px;
-  flex:620px 0 0;
+  -webkit-box-flex:720px;
+  flex:720px 0 0;
   background-color:rgb(34, 40, 35);
+  margin-left: 65px;
 }
 
 span {
