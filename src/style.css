@@ -11,6 +11,7 @@
   --large-font: 64px;  
   
   --gradient-1: #231523;
+  --gradient-0: #241f24;
   --gradient-2: #000000;
 }
 
@@ -31,7 +32,7 @@
   background: -moz-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
   background: -ms-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
   background: -o-linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
-  background: linear-gradient( to left top, var(--gradient-2), var(--gradient-1));
+  background: linear-gradient( to top, var(--gradient-2), var(--gradient-0));
   
 }
 
@@ -83,14 +84,14 @@ main {
 
 body, html {
   font-family: "Literata", serif;
-
+  max-width: 100%;
+  overflow-x: hidden;
   color: var(--text-color);
   margin: 0;
   line-height: 1.65;
   -webkit-text-size-adjust:100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 
 }
 

@@ -4,10 +4,10 @@
 <template>
 
     <div>
-        <h2>Some of my current favorites:</h2>
+        <h2>Current favorite playlist:</h2>
         <iframe style="border-radius:12px" 
-        src="https://open.spotify.com/embed/playlist/192dawcEbGBMDwhERl3gAE?utm_source=generator&theme=0" 
-        width="70%" height="570" frameBorder="0" 
+        src="https://open.spotify.com/embed/playlist/5biHO96cR2gItgMhj3ackA?utm_source=generator&theme=0" 
+        width="90%" height="500" frameBorder="0" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 

@@ -53,7 +53,7 @@ const loadMusic = () => {
                     <a class="animation-link" v-on:click.prevent="loadFilms" href="#">films</a>, 
                     and also listening to 
                     <a class="animation-link" v-on:click.prevent="loadMusic" href="#">music</a>; I believe these to be a great way to express yourself to others. I love sharing my recommendations.
-                    Daily physical stimulation is a necessity for me. I enjoy playing competive volleyball and basketball. In addition, becoming more in tune with my body through practicing yoga.
+                    Daily physical stimulation is a necessity for me. I enjoy playing competive volleyball and basketball, as well as practicing yoga.
                 </p>
                 <p>
                     You can find me on 

@@ -3,65 +3,65 @@
 
 <template>
     <div>
-      <h2 class="heading">Recent Picks:</h2>
+      <h2 class="heading">Recent Film Picks:</h2>
       <ul>
         <li>
           <div class="image-container">
-            <a href ="https://www.imdb.com/title/tt4288182/" target="_blank">
-              <img alt="atlanta" src="../assets/images/paperboy.jpg">
+            <a href ="https://www.imdb.com/title/tt0317248/" target="_blank">
+              <img alt="city-of-god" src="../assets/images/city-of-god.jpg">
               <div class="overlay">
-                <h2>Atlanta</h2>
+                <h2>City of God</h2>
               </div>
             </a>
           </div>
           <div class = "description">
             <div>
-              <p>One of my favorite shows of all time.</p>
+              <p>One of my favorite films of all time.</p>
             </div>
           </div>
         </li>
         <li>
           <div class="image-container">
-            <a href ="https://www.imdb.com/title/tt8531222/?ref_=ttmi_tt" target="_blank">
-              <img alt="dave" src="../assets/images/dave.jpg">
+            <a href ="https://www.imdb.com/title/tt0362270/?ref_=nv_sr_srsg_0_tt_5_nm_0_q_the%2520life%2520aquatic" target="_blank">
+              <img alt="the-life-aquatic" src="../assets/images/the-life-aquatic.jpg">
               <div class="overlay">
-                <h2>Dave</h2>
+                <h2>The Life Aquatic</h2>
               </div>
             </a>
           </div>
           <div class = "description">
             <div>
-              <p>Absolutely hilarious, with a bunch of wildly-creative cameos.</p>
+              <p>The most amazing soundtrack.</p>
             </div>
           </div>
         </li>
         <li>
           <div class="image-container">
-            <a href ="https://www.imdb.com/title/tt5348176/?ref_=fn_al_tt_1" target="_blank">
-              <img alt="barry" src="../assets/images/barry.jpg">
+            <a href ="https://m.imdb.com/title/tt0364569/?ref_=fn_al_tt_1" target="_blank">
+              <img alt="oldboy" src="../assets/images/oldboy.jpg">
               <div class="overlay">
-                <h2>Barry</h2>
+                <h2>Oldboy</h2>
               </div>
             </a>
           </div>
           <div class = "description">
             <div>
-              <p>A very dark comedy.</p>
+              <p>Not soemthing you see everyday.</p>
             </div>
           </div>
         </li>
           <li>
           <div class="image-container">
-            <a href ="https://www.imdb.com/title/tt0098904/" target="_blank">
-              <img alt="seinfeld" src="../assets/images/seinfeld.jpg">
+            <a href ="https://m.imdb.com/title/tt2543164/?ref_=fn_al_tt_1" target="_blank">
+              <img alt="arrival" src="../assets/images/arrival.jpg">
               <div class="overlay">
-                <h2>Seinfeld</h2>
+                <h2>Arrival</h2>
               </div>
             </a>
           </div>
           <div class = "description">
             <div>
-              <p>*insert george costanza quote*</p>
+              <p>An extremely immersive experience.</p>
             </div>
           </div>
         </li>
@@ -135,6 +135,7 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgba(10, 6, 12, 0.621);
@@ -152,7 +153,11 @@
   color: var(--link-color);
   font-size: var(--large-font);
   text-align: center;
+  text-shadow: 0 0 5px var(--link-color), 
+               0 0 10px var(--link-color), 
+               0 0 15px var(--link-color)
 }
+
 
 .image-container:hover .overlay {
   opacity: 1;

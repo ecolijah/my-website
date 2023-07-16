@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <h2 class="heading">Recent Picks:</h2>
+    <h2 class="heading">Recent Show Picks:</h2>
     <ul>
       <li>
         <div class="image-container">
@@ -46,22 +46,22 @@
         </div>
         <div class = "description">
           <div>
-            <p>A very dark comedy.</p>
+            <p>A <strong>very</strong> dark comedy.</p>
           </div>
         </div>
       </li>
         <li>
         <div class="image-container">
-          <a href ="https://www.imdb.com/title/tt0098904/" target="_blank">
-            <img alt="seinfeld" src="../assets/images/seinfeld.jpg">
+          <a href ="https://www.imdb.com/title/tt14452776/" target="_blank">
+            <img alt="the-bear" src="../assets/images/the-bear.jpg">
             <div class="overlay">
-              <h2>Seinfeld</h2>
+              <h2>The Bear</h2>
             </div>
           </a>
         </div>
         <div class = "description">
           <div>
-            <p>*insert george costanza quote*</p>
+            <p>I aspire to love what i do as much as chef's.</p>
           </div>
         </div>
       </li>
@@ -152,6 +152,9 @@
   color: var(--link-color);
   font-size: var(--large-font);
   text-align: center;
+  text-shadow: 0 0 5px var(--link-color), 
+               0 0 10px var(--link-color), 
+               0 0 15px var(--link-color)
 }
 
 .image-container:hover .overlay {
