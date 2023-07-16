@@ -9,21 +9,30 @@ const showMusic = ref(false);
 const showFilms =  ref(false);
 
 const loadShows = () => {
-  showShows.value = true;
   showFilms.value = false;
   showMusic.value = false;
+  setTimeout(() => {
+    showShows.value = true;
+    console.log("here: shows")
+  }, 600); // delay in milliseconds, should match the transition duration in your CSS
 };
 
 const loadFilms = () => {
   showShows.value = false;
-  showFilms.value = true;
   showMusic.value = false;
+  setTimeout(() => {
+    showFilms.value = true;
+    console.log("here: films")
+  }, 600); // delay in milliseconds, should match the transition duration in your CSS
 };
 
 const loadMusic = () => {
   showShows.value = false;
   showFilms.value = false;
-  showMusic.value = true;
+  setTimeout(() => {
+    showMusic.value = true;
+    console.log("here: music")
+  }, 600); // delay in milliseconds, should match the transition duration in your CSS
 };
 
 </script>
@@ -58,12 +67,35 @@ const loadMusic = () => {
             </div>
         </div>
         <div class = "details">
+
+          <Transition name="slide-fade" mode="out-in">
             <shows v-if="showShows"></shows>
-            <films v-if="showFilms"></films>
+          </Transition>
+
+          <Transition name="slide-fade" mode="out-in">
             <music v-if="showMusic"></music>
+          </Transition>
+
+          <Transition name="slide-fade" mode="out-in">
+            <films v-if="showFilms"></films>
+          </Transition>
+
         </div>
     </main>   
 </template>
 
 <style scoped>
+  .slide-fade-enter-active {
+    transition: all 0.6s ease-out;
+  }
+
+  .slide-fade-leave-active {
+    transition: all 0.6s cubic-bezier(1, 0.5, 0.8, 1);
+  }
+
+  .slide-fade-enter-from,
+  .slide-fade-leave-to {
+    transform: translateX(30px);
+    opacity: 0;
+  }
 </style>
