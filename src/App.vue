@@ -45,23 +45,23 @@ const loadMusic = () => {
                 <p>
                     <strong>My name is <span>Elijah Lopez</span></strong>, but you can just call me <strong>Eli</strong>.
                     I'm a Computer Science student who is interested in building technology to promote 
-                    sustainability and decentralization. But right now, I just want a job, lol.
+                    sustainability and decentralization. But right now, i just want a job, lol.
                 </p>
                 <p>
                     I enjoy watching 
-                    <a class="animation-link" v-on:click.prevent="loadShows" href="#">tv shows</a> as well as 
+                    <a class="animation-link" v-on:click.prevent="loadShows" href="#">tv shows</a>, as well as 
                     <a class="animation-link" v-on:click.prevent="loadFilms" href="#">films</a>, 
                     and also listening to 
-                    <a class="animation-link" v-on:click.prevent="loadMusic" href="#">music</a>; I believe these to be a great way to express yourself to others. I love sharing my recommendations.
-                    Daily physical stimulation is a necessity for me. I enjoy playing competive volleyball and basketball, as well as practicing yoga.
+                    <a class="animation-link" v-on:click.prevent="loadMusic" href="#">music</a>. I believe these are a great way to express yourself to others. I love sharing my recommendations.
+                    Daily physical stimulation is a necessity for me. I enjoy playing competitive volleyball and basketball, as well as practicing yoga.
                 </p>
                 <p>
                     You can find me on 
                     <a href="https://github.com/ecolijah" target="_blank">Github</a>, 
                     <a href="https://www.linkedin.com/in/elijah-lopez-65b809238/" target="_blank">LinkedIn</a>, 
                     and for a more personal platform, 
-                    <a href="https://open.spotify.com/user/ecolijah" target="_blank">spotify</a>. 
-                    Currently, i dont enjoy social media. Oh and if you need to message me, my 
+                    <a href="https://open.spotify.com/user/ecolijah" target="_blank">Spotify</a>. 
+                    Currently, I dont enjoy social media. Oh, and if you need to contact me, my 
                     <a href="mailto:elijahlopez@tutanota.com">email</a>.
                 </p>
             </div>

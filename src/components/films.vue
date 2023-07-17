@@ -46,7 +46,7 @@
           </div>
           <div class = "description">
             <div>
-              <p>Not soemthing you see everyday.</p>
+              <p>Not something you see everyday.</p>
             </div>
           </div>
         </li>

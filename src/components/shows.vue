@@ -61,7 +61,7 @@
         </div>
         <div class = "description">
           <div>
-            <p>I aspire to love what i do as much as chef's.</p>
+            <p>I aspire to love what i do as much as chefs.</p>
           </div>
         </div>
       </li>
